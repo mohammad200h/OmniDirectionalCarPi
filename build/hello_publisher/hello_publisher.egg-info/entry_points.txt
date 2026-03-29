@@ -1,3 +1,0 @@
-[console_scripts]
-talker = hello_publisher.talker:main
-
