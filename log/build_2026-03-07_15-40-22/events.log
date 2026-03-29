@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.001263] (hello_publisher) JobQueued: {'identifier': 'hello_publisher', 'dependencies': OrderedDict()}
+[0.001447] (imu_publisher) JobQueued: {'identifier': 'imu_publisher', 'dependencies': OrderedDict()}
+[0.002608] (hello_publisher) JobStarted: {'identifier': 'hello_publisher'}
+[0.070596] (imu_publisher) JobStarted: {'identifier': 'imu_publisher'}
+[0.099247] (-) TimerEvent: {}
+[0.201047] (-) TimerEvent: {}
+[0.302715] (-) TimerEvent: {}
+[0.404124] (-) TimerEvent: {}
+[0.505885] (-) TimerEvent: {}
+[0.607613] (-) TimerEvent: {}
+[0.709625] (-) TimerEvent: {}
+[0.811149] (-) TimerEvent: {}
+[0.911877] (-) TimerEvent: {}
+[1.014158] (-) TimerEvent: {}
+[1.115283] (-) TimerEvent: {}
+[1.217022] (-) TimerEvent: {}
+[1.317712] (-) TimerEvent: {}
+[1.419072] (-) TimerEvent: {}
+[1.520612] (-) TimerEvent: {}
+[1.623633] (-) TimerEvent: {}
+[1.726921] (-) TimerEvent: {}
+[1.828772] (-) TimerEvent: {}
+[1.932411] (-) TimerEvent: {}
+[2.033828] (-) TimerEvent: {}
+[2.136629] (-) TimerEvent: {}
+[2.238033] (-) TimerEvent: {}
+[2.339770] (-) TimerEvent: {}
+[2.443543] (-) TimerEvent: {}
+[2.545813] (-) TimerEvent: {}
+[2.648374] (-) TimerEvent: {}
+[2.750590] (-) TimerEvent: {}
+[2.852591] (-) TimerEvent: {}
+[2.954878] (-) TimerEvent: {}
+[3.057720] (-) TimerEvent: {}
+[3.160218] (-) TimerEvent: {}
+[3.199189] (hello_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/hello_publisher', 'build', '--build-base', '/workspace/build/hello_publisher/build', 'install', '--record', '/workspace/build/hello_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/hello_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'raspberrypi', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/workspace/build/hello_publisher', 'PYTHONPATH': '/workspace/build/hello_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/hello_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.260689] (-) TimerEvent: {}
+[3.277646] (imu_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/workspace/build/imu_publisher/build'], 'cwd': '/workspace/build/imu_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'raspberrypi', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/workspace/build/imu_publisher', 'PYTHONPATH': '/workspace/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/imu_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.360933] (-) TimerEvent: {}
+[3.462448] (-) TimerEvent: {}
+[3.563579] (-) TimerEvent: {}
+[3.664618] (-) TimerEvent: {}
+[3.765419] (-) TimerEvent: {}
+[3.866406] (-) TimerEvent: {}
+[3.967350] (-) TimerEvent: {}
+[4.068314] (-) TimerEvent: {}
+[4.132679] (hello_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[4.134498] (hello_publisher) StdoutLine: {'line': b'writing ../../build/hello_publisher/hello_publisher.egg-info/PKG-INFO\n'}
+[4.134872] (hello_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/hello_publisher/hello_publisher.egg-info/dependency_links.txt\n'}
+[4.136916] (hello_publisher) StdoutLine: {'line': b'writing entry points to ../../build/hello_publisher/hello_publisher.egg-info/entry_points.txt\n'}
+[4.138260] (hello_publisher) StdoutLine: {'line': b'writing requirements to ../../build/hello_publisher/hello_publisher.egg-info/requires.txt\n'}
+[4.139037] (hello_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/hello_publisher/hello_publisher.egg-info/top_level.txt\n'}
+[4.145819] (hello_publisher) StdoutLine: {'line': b"reading manifest file '../../build/hello_publisher/hello_publisher.egg-info/SOURCES.txt'\n"}
+[4.149031] (hello_publisher) StdoutLine: {'line': b"writing manifest file '../../build/hello_publisher/hello_publisher.egg-info/SOURCES.txt'\n"}
+[4.150046] (hello_publisher) StdoutLine: {'line': b'running build\n'}
+[4.150609] (hello_publisher) StdoutLine: {'line': b'running build_py\n'}
+[4.151626] (hello_publisher) StdoutLine: {'line': b'running install\n'}
+[4.152495] (hello_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[4.156827] (hello_publisher) StdoutLine: {'line': b'running install_data\n'}
+[4.157911] (hello_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.164565] (hello_publisher) StdoutLine: {'line': b"removing '/workspace/install/hello_publisher/lib/python3.10/site-packages/hello_publisher-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[4.165859] (hello_publisher) StdoutLine: {'line': b'Copying ../../build/hello_publisher/hello_publisher.egg-info to /workspace/install/hello_publisher/lib/python3.10/site-packages/hello_publisher-0.0.1-py3.10.egg-info\n'}
+[4.168458] (-) TimerEvent: {}
+[4.169388] (hello_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[4.252964] (hello_publisher) StdoutLine: {'line': b'Installing talker script to /workspace/install/hello_publisher/lib/hello_publisher\n'}
+[4.254761] (hello_publisher) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/hello_publisher/install.log'\n"}
+[4.268833] (-) TimerEvent: {}
+[4.336381] (imu_publisher) StdoutLine: {'line': b'running develop\n'}
+[4.369110] (-) TimerEvent: {}
+[4.393934] (hello_publisher) CommandEnded: {'returncode': 0}
+[4.471632] (-) TimerEvent: {}
+[4.482593] (hello_publisher) JobEnded: {'identifier': 'hello_publisher', 'rc': 0}
+[4.571823] (-) TimerEvent: {}
+[4.672814] (-) TimerEvent: {}
+[4.774317] (-) TimerEvent: {}
+[4.875369] (-) TimerEvent: {}
+[4.967648] (imu_publisher) StdoutLine: {'line': b'Removing /workspace/install/imu_publisher/lib/python3.10/site-packages/imu-publisher.egg-link (link to .)\n'}
+[4.975620] (-) TimerEvent: {}
+[5.077074] (-) TimerEvent: {}
+[5.097133] (imu_publisher) CommandEnded: {'returncode': 0}
+[5.101495] (imu_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/imu_publisher', 'build', '--build-base', '/workspace/build/imu_publisher/build', 'install', '--record', '/workspace/build/imu_publisher/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/workspace/src/imu_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'HOSTNAME': 'raspberrypi', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/workspace/build/imu_publisher', 'PYTHONPATH': '/workspace/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/imu_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[5.177216] (-) TimerEvent: {}
+[5.277947] (-) TimerEvent: {}
+[5.378630] (-) TimerEvent: {}
+[5.479472] (-) TimerEvent: {}
+[5.580218] (-) TimerEvent: {}
+[5.680991] (-) TimerEvent: {}
+[5.781805] (-) TimerEvent: {}
+[5.882587] (-) TimerEvent: {}
+[5.913253] (imu_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[5.915922] (imu_publisher) StdoutLine: {'line': b'writing ../../build/imu_publisher/imu_publisher.egg-info/PKG-INFO\n'}
+[5.916955] (imu_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/imu_publisher/imu_publisher.egg-info/dependency_links.txt\n'}
+[5.921949] (imu_publisher) StdoutLine: {'line': b'writing entry points to ../../build/imu_publisher/imu_publisher.egg-info/entry_points.txt\n'}
+[5.923197] (imu_publisher) StdoutLine: {'line': b'writing requirements to ../../build/imu_publisher/imu_publisher.egg-info/requires.txt\n'}
+[5.923773] (imu_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/imu_publisher/imu_publisher.egg-info/top_level.txt\n'}
+[5.930717] (imu_publisher) StdoutLine: {'line': b"reading manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'\n"}
+[5.933651] (imu_publisher) StdoutLine: {'line': b"writing manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'\n"}
+[5.934662] (imu_publisher) StdoutLine: {'line': b'running build\n'}
+[5.935113] (imu_publisher) StdoutLine: {'line': b'running build_py\n'}
+[5.935947] (imu_publisher) StdoutLine: {'line': b'running install\n'}
+[5.936750] (imu_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[5.939390] (imu_publisher) StdoutLine: {'line': b'creating /workspace/install/imu_publisher/lib/python3.10/site-packages/imu_publisher\n'}
+[5.940316] (imu_publisher) StdoutLine: {'line': b'copying /workspace/build/imu_publisher/build/lib/imu_publisher/__init__.py -> /workspace/install/imu_publisher/lib/python3.10/site-packages/imu_publisher\n'}
+[5.941302] (imu_publisher) StdoutLine: {'line': b'copying /workspace/build/imu_publisher/build/lib/imu_publisher/imu_publisher_node.py -> /workspace/install/imu_publisher/lib/python3.10/site-packages/imu_publisher\n'}
+[5.943626] (imu_publisher) StdoutLine: {'line': b'byte-compiling /workspace/install/imu_publisher/lib/python3.10/site-packages/imu_publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[5.944828] (imu_publisher) StdoutLine: {'line': b'byte-compiling /workspace/install/imu_publisher/lib/python3.10/site-packages/imu_publisher/imu_publisher_node.py to imu_publisher_node.cpython-310.pyc\n'}
+[5.951170] (imu_publisher) StdoutLine: {'line': b'running install_data\n'}
+[5.951975] (imu_publisher) StdoutLine: {'line': b'copying resource/imu_publisher -> /workspace/install/imu_publisher/share/ament_index/resource_index/packages\n'}
+[5.952600] (imu_publisher) StdoutLine: {'line': b'copying package.xml -> /workspace/install/imu_publisher/share/imu_publisher\n'}
+[5.953411] (imu_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.959683] (imu_publisher) StdoutLine: {'line': b'Copying ../../build/imu_publisher/imu_publisher.egg-info to /workspace/install/imu_publisher/lib/python3.10/site-packages/imu_publisher-0.0.1-py3.10.egg-info\n'}
+[5.962445] (imu_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[5.982751] (-) TimerEvent: {}
+[6.034684] (imu_publisher) StdoutLine: {'line': b'Installing imu_publisher_node script to /workspace/install/imu_publisher/lib/imu_publisher\n'}
+[6.036116] (imu_publisher) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/imu_publisher/install.log'\n"}
+[6.083011] (-) TimerEvent: {}
+[6.156889] (imu_publisher) CommandEnded: {'returncode': 0}
+[6.183106] (-) TimerEvent: {}
+[6.188021] (imu_publisher) JobEnded: {'identifier': 'imu_publisher', 'rc': 0}
+[6.191811] (-) EventReactorShutdown: {}

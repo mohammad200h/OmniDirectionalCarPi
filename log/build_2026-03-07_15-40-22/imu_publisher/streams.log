@@ -1,0 +1,31 @@
+[3.209s] Invoking command in '/workspace/build/imu_publisher': PYTHONPATH=/workspace/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/imu_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspace/build/imu_publisher/build
+[4.267s] running develop
+[4.897s] Removing /workspace/install/imu_publisher/lib/python3.10/site-packages/imu-publisher.egg-link (link to .)
+[5.027s] Invoked command in '/workspace/build/imu_publisher' returned '0': PYTHONPATH=/workspace/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/imu_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /workspace/build/imu_publisher/build
+[5.034s] Invoking command in '/workspace/src/imu_publisher': PYTHONPATH=/workspace/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/imu_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_publisher build --build-base /workspace/build/imu_publisher/build install --record /workspace/build/imu_publisher/install.log --single-version-externally-managed install_data --force
+[5.843s] running egg_info
+[5.846s] writing ../../build/imu_publisher/imu_publisher.egg-info/PKG-INFO
+[5.847s] writing dependency_links to ../../build/imu_publisher/imu_publisher.egg-info/dependency_links.txt
+[5.852s] writing entry points to ../../build/imu_publisher/imu_publisher.egg-info/entry_points.txt
+[5.853s] writing requirements to ../../build/imu_publisher/imu_publisher.egg-info/requires.txt
+[5.853s] writing top-level names to ../../build/imu_publisher/imu_publisher.egg-info/top_level.txt
+[5.860s] reading manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'
+[5.863s] writing manifest file '../../build/imu_publisher/imu_publisher.egg-info/SOURCES.txt'
+[5.864s] running build
+[5.865s] running build_py
+[5.866s] running install
+[5.866s] running install_lib
+[5.869s] creating /workspace/install/imu_publisher/lib/python3.10/site-packages/imu_publisher
+[5.870s] copying /workspace/build/imu_publisher/build/lib/imu_publisher/__init__.py -> /workspace/install/imu_publisher/lib/python3.10/site-packages/imu_publisher
+[5.871s] copying /workspace/build/imu_publisher/build/lib/imu_publisher/imu_publisher_node.py -> /workspace/install/imu_publisher/lib/python3.10/site-packages/imu_publisher
+[5.873s] byte-compiling /workspace/install/imu_publisher/lib/python3.10/site-packages/imu_publisher/__init__.py to __init__.cpython-310.pyc
+[5.875s] byte-compiling /workspace/install/imu_publisher/lib/python3.10/site-packages/imu_publisher/imu_publisher_node.py to imu_publisher_node.cpython-310.pyc
+[5.881s] running install_data
+[5.882s] copying resource/imu_publisher -> /workspace/install/imu_publisher/share/ament_index/resource_index/packages
+[5.883s] copying package.xml -> /workspace/install/imu_publisher/share/imu_publisher
+[5.883s] running install_egg_info
+[5.889s] Copying ../../build/imu_publisher/imu_publisher.egg-info to /workspace/install/imu_publisher/lib/python3.10/site-packages/imu_publisher-0.0.1-py3.10.egg-info
+[5.892s] running install_scripts
+[5.964s] Installing imu_publisher_node script to /workspace/install/imu_publisher/lib/imu_publisher
+[5.966s] writing list of installed files to '/workspace/build/imu_publisher/install.log'
+[6.087s] Invoked command in '/workspace/src/imu_publisher' returned '0': PYTHONPATH=/workspace/build/imu_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/imu_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_publisher build --build-base /workspace/build/imu_publisher/build install --record /workspace/build/imu_publisher/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/hello_publisher/hello_publisher.egg-info
+writing ../../build/hello_publisher/hello_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/hello_publisher/hello_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/hello_publisher/hello_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/hello_publisher/hello_publisher.egg-info/requires.txt
+writing top-level names to ../../build/hello_publisher/hello_publisher.egg-info/top_level.txt
+writing manifest file '../../build/hello_publisher/hello_publisher.egg-info/SOURCES.txt'
+reading manifest file '../../build/hello_publisher/hello_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/hello_publisher/hello_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/build/hello_publisher/build
+creating /workspace/build/hello_publisher/build/lib
+creating /workspace/build/hello_publisher/build/lib/hello_publisher
+copying hello_publisher/talker.py -> /workspace/build/hello_publisher/build/lib/hello_publisher
+copying hello_publisher/__init__.py -> /workspace/build/hello_publisher/build/lib/hello_publisher
+running install
+running install_lib
+creating /workspace/install/hello_publisher/lib/python3.10/site-packages/hello_publisher
+copying /workspace/build/hello_publisher/build/lib/hello_publisher/talker.py -> /workspace/install/hello_publisher/lib/python3.10/site-packages/hello_publisher
+copying /workspace/build/hello_publisher/build/lib/hello_publisher/__init__.py -> /workspace/install/hello_publisher/lib/python3.10/site-packages/hello_publisher
+byte-compiling /workspace/install/hello_publisher/lib/python3.10/site-packages/hello_publisher/talker.py to talker.cpython-310.pyc
+byte-compiling /workspace/install/hello_publisher/lib/python3.10/site-packages/hello_publisher/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /workspace/install/hello_publisher/share/ament_index
+creating /workspace/install/hello_publisher/share/ament_index/resource_index
+creating /workspace/install/hello_publisher/share/ament_index/resource_index/packages
+copying resource/hello_publisher -> /workspace/install/hello_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/install/hello_publisher/share/hello_publisher
+running install_egg_info
+Copying ../../build/hello_publisher/hello_publisher.egg-info to /workspace/install/hello_publisher/lib/python3.10/site-packages/hello_publisher-0.0.1-py3.10.egg-info
+running install_scripts
+Installing talker script to /workspace/install/hello_publisher/lib/hello_publisher
+writing list of installed files to '/workspace/build/hello_publisher/install.log'

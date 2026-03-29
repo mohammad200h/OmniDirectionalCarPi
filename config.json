@@ -1,0 +1,26 @@
+{
+  "HbridgeOne":{
+    "MotorOne":{
+      "in1":24,
+      "in2":23,
+      "en":25
+    },
+    "MotorTwo":{
+      "in1":14,
+      "in2":15,
+      "en":18
+    }
+  },
+  "HbridgeTwo":{
+    "MotorOne":{
+      "in1":3,
+      "in2":4,
+      "en":2
+    },
+    "MotorTwo":{
+      "in1":17,
+      "in2":27,
+      "en":22
+    }
+  }
+}
